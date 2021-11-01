@@ -45,7 +45,7 @@ code {
 }
 .card:hover {
   filter: grayscale(0%);
-  transform: translateY(10px);
+  transform: translateY(1px);
   cursor: pointer;
   /* box-shadow: 5px 2px 2px grey; */
 }
@@ -102,4 +102,14 @@ ul li {
 }
 .animal-link:hover {
   font-style: italic;
+  color: red;
+}
+.animal-details {
+  display: flex;
+}
+.animal-details img {
+  height: 500px;
+  width: 500px;
+  align-items: center;
+  justify-content: center;
 }
