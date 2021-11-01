@@ -1,10 +1,11 @@
 import React from "react";
-
 const Footer = () => {
   return (
-    <div>
-      <h3>Footer</h3>
-    </div>
+    <footer>
+      <p>
+        Made By &copy;<span>Ouss</span>
+      </p>
+    </footer>
   );
 };
 

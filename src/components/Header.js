@@ -1,8 +1,10 @@
 import React from "react";
+import Navigation from "./Navigation";
 
 const Header = () => {
   return (
-    <div>
+    <div className="header-wrapper">
+      <Navigation />
       <h1>Animal App</h1>
     </div>
   );
