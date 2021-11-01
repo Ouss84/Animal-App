@@ -41,10 +41,13 @@ code {
   display: inline-block;
   margin: 1rem;
   text-transform: capitalize;
-  filter: grayscale(0%);
-}
-.card :hover {
   filter: grayscale(100%);
+}
+.card:hover {
+  filter: grayscale(0%);
+  transform: translateY(10px);
+  cursor: pointer;
+  /* box-shadow: 5px 2px 2px grey; */
 }
 .card img {
   width: 100%;
@@ -96,4 +99,7 @@ ul li {
 .about p {
   margin-top: 60px;
   text-align: center;
+}
+.animal-link:hover {
+  font-style: italic;
 }
