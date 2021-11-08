@@ -9,7 +9,7 @@ const AnimalSingle = () => {
   //   console.log(history);
   //   console.log(animals);
   return (
-    <div>
+    <div className="animal-single">
       <div className="animal-details">
         <p>This is the page for {animal}</p>
 

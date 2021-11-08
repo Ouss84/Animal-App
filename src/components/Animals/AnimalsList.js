@@ -30,7 +30,7 @@ class AnimalsList extends Component {
         <Switch>
           <Route exact path={this.props.match.path}>
             <div className="search-field">
-              <label>Search your favorite animal:</label>
+              <label>Search for animal:</label>
               <input type="text" onChange={this.searchInputHandler} />
             </div>
             {animalListing}

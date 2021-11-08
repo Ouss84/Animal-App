@@ -100,6 +100,12 @@ ul li {
 }
 button {
   border: grey;
+  cursor: pointer;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: rgb(250, 191, 191);
 }
 .search-field {
   display: block;
