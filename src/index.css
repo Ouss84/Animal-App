@@ -91,15 +91,12 @@ ul li {
 }
 .animal-details {
   display: flex;
-  flex-direction: column;
+
   text-align: center;
 }
 .animal-details img {
   height: 500px;
   width: 500px;
-  display: block;
-  align-items: center;
-  justify-content: center;
 }
 button {
   border: grey;

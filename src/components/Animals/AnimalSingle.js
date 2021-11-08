@@ -11,7 +11,7 @@ const AnimalSingle = () => {
   return (
     <div>
       <div className="animal-details">
-        <div>This is the page for {animal}</div>
+        <p>This is the page for {animal}</p>
 
         <img
           src={`https://source.unsplash.com/1600x900/?${animal}`}
