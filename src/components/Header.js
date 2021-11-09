@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className="header-wrapper">
       <Navigation />
-      <h1>Animal App</h1>
+      {/* <h1>Animal App</h1> */}
     </div>
   );
 };

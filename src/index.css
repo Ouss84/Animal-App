@@ -71,12 +71,20 @@ ul li {
   text-decoration: none;
   list-style-type: none;
 }
+/* ********************** Home *************************** */
 .home {
-  height: 70vh;
+  display: flex;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
 }
 .home h1 {
   margin-top: 50px;
   justify-content: center;
+}
+.home h1 span {
+  text-transform: uppercase;
+  color: red;
 }
 .about {
   height: 70vh;
@@ -89,31 +97,58 @@ ul li {
   font-style: italic;
   color: red;
 }
-.animal-details {
-  display: flex;
-
-  text-align: center;
-}
-.animal-details img {
-  height: 500px;
-  width: 500px;
-}
-button {
-  border: grey;
-  cursor: pointer;
-  font-size: 1.2rem;
-  border-radius: 5px;
-}
-button:hover {
-  background-color: rgb(250, 191, 191);
-}
+/* ***************** Search field ******************* */
 .search-field {
   display: block;
   text-align: center;
+  font-family: "roboto";
+  font-style: italic;
+}
+input {
+  border: solid 2px grey;
+  border-radius: 5px;
+  margin-left: 5px;
 }
 label {
   font-size: 1.5rem;
 }
 input {
   font-size: 1.5rem;
+}
+/* ***************** AnimalSingle page ******************* */
+.animal-single {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.animal-single p {
+  text-align: center;
+}
+.animal-details img {
+  height: 500px;
+  width: 500px;
+  margin: 10px 0;
+  border: 1px black solid;
+  border-radius: 5px;
+  box-shadow: 10px 5px 1px rgba(102, 102, 156, 0.2);
+}
+button:hover {
+  background-color: rgb(250, 191, 191);
+}
+button {
+  border: grey;
+  font-family: "roboto";
+  cursor: pointer;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  box-shadow: 1px 2px 1px rgba(102, 102, 156, 0.2);
+}
+
+/* ***************** About page ******************* */
+.about {
+  display: flex;
+  height: 85vh;
+  justify-content: center;
+  align-items: center;
 }
