@@ -121,6 +121,7 @@ input {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 80vh;
 }
 .animal-single p {
   text-align: center;
