@@ -9,7 +9,7 @@
 ## Application screenshots
 
 ![landingpage screenshot](screen-1.png)
-![animal list screenshot](screenshot-2.png)
-![searching screenshot](screenshot-3.png)
-![about page screenshot](screenshot-4.png)
-![specific animal screenshot](screenshot-5.png)
+![animal list screenshot](Screenshot-2.png)
+![searching screenshot](Screenshot-3.png)
+![about page screenshot](Screenshot-4.png)
+![specific animal screenshot](Screenshot-5.png)
