@@ -1,10 +1,14 @@
 import React from "react";
+import { IoIosHeart } from "react-icons/io";
+
 const Footer = () => {
   return (
     <footer>
-      <p>
-        Made By &copy;<span>Ouss</span>
-      </p>
+      <h3>
+        Developped with
+        <IoIosHeart />
+        by: <span>Oussama Bahri</span>
+      </h3>
     </footer>
   );
 };
