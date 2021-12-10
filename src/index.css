@@ -72,9 +72,13 @@ ul li {
   text-decoration: none;
   list-style-type: none;
   text-decoration-line: none;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 700;
 }
 ul a {
   text-decoration-line: none;
+  color: black;
 }
 a:hover {
   font-weight: bold;
