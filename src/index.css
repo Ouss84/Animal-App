@@ -167,3 +167,6 @@ button {
   align-items: center;
   font-size: 1.5rem;
 }
+.heart {
+  color: red;
+}

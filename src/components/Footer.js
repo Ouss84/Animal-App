@@ -6,7 +6,7 @@ const Footer = () => {
     <footer>
       <h3>
         Developped with
-        <IoIosHeart />
+        <IoIosHeart className="heart" />
         by: <span>Oussama Bahri</span>
       </h3>
     </footer>
